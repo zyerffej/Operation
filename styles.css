@@ -53,24 +53,3 @@ top-bar{
     border-radius: : 3px;
 }
 
-.new-card{
-    display: flex;
-    gap: 0.5em;
-
-}
-
-.new-card input{
-    flex: 1;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.new-card button{
-    padding: 0.5em;
-    border:none;
-    background-color: #f76c6c;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
