@@ -1,64 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operation</title>
-    <link rel="stylesheet" href='./styles.css'<link>
+    <link rel="stylesheet" href='./styles.css' />
 </head>
+
 <body>
     <header>
-          <div class ="header-content">
-            <input type="text"class="search"placeholder="search..."/>
+        <div class="header-content">
+            <input type="text" class="search" placeholder="search..." />
             <h1> STUFFED ANIMAL TASK LIST</h1>
-          </div>
+        </div>
     </header>
     <main>
         <section class="column">
             <h2>FUTURE PROJECTS</h2>
-            <div class="card">Pick Color Trends</div>
-                <span class="date">4/21/2017</span>
-                <div class="tags"></div>
-            <div class="card">Source Fabrics</div>
-                <span class="date" >4/21/2017</span>
-                <div class="tags"></div>
-            <div class="card">Manufacture clothing</div>
-                <span class="date">4/21/2017</span>
-                <div class="tags"></div>
-            <div class="card">Confirm structural intergrity</div>
-                <span class="date">4/21/2017</span>
-                <div class="tags"></div>
-            <div class="card">Manufacture mandibles</div>
-                <span class="date">4/21/2017</span>
-                <div class="tags"></div>
+            <ul id="future">
+            </ul>
+
         </section>
 
         <section class="column">
             <h2>ACTIVE PROJECTS</h2>
-            <div class="card">Test fear factor</div>
-                <span clas=""date" >4/20/2017</span>
-                <div class="tags"></div>
-            <div class="card">Develop butoom samples</div>
+            <div class="item">
                 <span class="date">4/21/2017</span>
                 <div class="tags"></div>
-            <div class="card">Recall malfunctioning giraffes</div>
+                <div class="card">Source Fabrics</div>
+            </div>
+            <div class="item">
                 <span class="date">4/21/2017</span>
                 <div class="tags"></div>
-            <div class="card">task task task task</div>
-                <span class="date">4/20/2017</span>
+                <div class="card">Manufacture clothing</div>
+            </div>
+            <div class="item">
+                <span class="date">4/21/2017</span>
                 <div class="tags"></div>
-            <div class="card">Perform user research on new stuffing</div>
-                <span class="date">4/20/2017</span>
+                <div class="card">Confirm structural intergrity</div>
+            </div>
+            <div class="item">
+                <span class="date">4/21/2017</span>
                 <div class="tags"></div>
+                <div class="card">Manufacture clothing</div>
+            </div>
         </section>
 
         <section class="column">
             <h3>COMPLETED PROJECTS</h3>
-            <div class="card">Research Trends</div>
-                <span class="date"> 4/19/2017</span>
-                <div class="tags"></div>
-            
+            <ul id="completed"></ul>
+
         </section>
     </main>
 </body>
+<script type="module" src="./script.js"></script>
 </html>
