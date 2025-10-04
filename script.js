@@ -1,26 +1,26 @@
 console.log("Javascript is working");
-const columns = document.querySelectorAll(".column");
 
+<>
+<section class ="column">
+   <h2>FUTURE PROJECTS</h2>
+   <div class= "card">Pick color Trends</div>
+   <div class= "card">Source Fabrics</div>
+   <div class= "card">Manufacture clothing</div>
+   <div class= "card">Confirm structural integrity</div>
+   <div class= "card">Manufacture mandibles</div>
+</section>
 
-let futureProjects = [];
-let activeProjects = [];
-let completedProjects = [];
+<section class =" column">
+  <h2>ACTIVE PROJECTS</h2>
+  <div class="card">Test fear factor</div>
+  <div class="card">Develop buttom samples</div>
+  <div class="card">Recall manufacturing giraffes</div>
+  <div class="card">Task task task task</div>
+  <div class="card">Perform user research on new stuffing</div>
+</section>
 
-columns.forEach(column => {
-  const title = column.querySelector("h2, h3")?.innerText; // get heading text
-  const cards = column.querySelectorAll(".card");
-
-  const projectList = Array.from(cards).map(card => card.innerText);
-
-  if (title.includes("FUTURE")) {
-    futureProjects = projectList;
-  } else if (title.includes("ACTIVE")) {
-    activeProjects = projectList;
-  } else if (title.includes("COMPLETED")) {
-    completedProjects = projectList;
-  }
-});
-
-console.log("Future Projects:", futureProjects);
-console.log("Active Projects:", activeProjects);
-console.log("Completed Projects:", completedProjects);
+<section class="column">
+  <h2>COMPLETED PROJECTS</h2>
+  <div class="card">Research Trends</div>
+</section>
+</>
